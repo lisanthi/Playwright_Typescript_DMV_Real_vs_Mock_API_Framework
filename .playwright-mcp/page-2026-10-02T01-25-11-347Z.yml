@@ -1,0 +1,94 @@
+- generic [ref=e1]:
+  - alert [ref=e66]
+  - generic [ref=e68]:
+    - link "Back to Home" [ref=e69] [cursor=pointer]:
+      - /url: /
+    - generic [ref=e72]:
+      - heading "Join the Queue" [level=1] [ref=e73]
+      - paragraph [ref=e74]: Select your DMV branch and service to get in line
+    - generic [ref=e75]:
+      - generic [ref=e76]:
+        - heading "Get Your Ticket" [level=3] [ref=e77]
+        - paragraph [ref=e78]: Follow the steps below to join the virtual queue
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - generic [ref=e82]: 1. Select DMV Branch
+          - combobox "1. Select DMV Branch" [ref=e83]:
+            - option "-- Choose a branch --"
+            - option "San Francisco DMV - San Francisco" [selected]
+            - option "Oakland Claremont DMV - Oakland"
+            - option "San Jose DMV - San Jose"
+            - option "Los Angeles - South LA DMV - Los Angeles"
+            - option "Sacramento - Broadway DMV - Sacramento"
+            - option "San Diego - Clairemont DMV - San Diego"
+            - option "Fresno DMV - Fresno"
+            - option "Long Beach DMV - Long Beach"
+            - option "Bakersfield DMV - Bakersfield"
+            - option "Riverside DMV - Riverside"
+            - option "Stockton DMV - Stockton"
+            - option "Modesto DMV - Modesto"
+            - option "Santa Ana DMV - Santa Ana"
+            - option "Anaheim DMV - Anaheim"
+            - option "Santa Rosa DMV - Santa Rosa"
+            - option "Salinas DMV - Salinas"
+            - option "Hayward DMV - Hayward"
+            - option "Pasadena DMV - Pasadena"
+            - option "Pomona DMV - Pomona"
+            - option "Torrance DMV - Torrance"
+            - option "Escondido DMV - Escondido"
+            - option "Sunnyvale DMV - Sunnyvale"
+            - option "Orange DMV - Orange"
+            - option "Fullerton DMV - Fullerton"
+            - option "Concord DMV - Concord"
+            - option "Visalia DMV - Visalia"
+            - option "Santa Clara DMV - Santa Clara"
+            - option "Vallejo DMV - Vallejo"
+            - option "Berkeley DMV - Berkeley"
+            - option "El Cajon DMV - El Cajon"
+          - generic [ref=e104]: 1377 Fell St, San Francisco, CA 94117
+        - generic [ref=e109]:
+          - generic [ref=e110]: 2. Select Service Type
+          - generic [ref=e111]:
+            - 'button "Driver License Renewal Average wait: 12 min" [active] [ref=e112] [cursor=pointer]':
+              - generic [ref=e114]:
+                - generic [ref=e115]: Driver License Renewal
+                - generic [ref=e116]: "Average wait: 12 min"
+            - 'button "New Driver License Average wait: 25 min" [ref=e121] [cursor=pointer]':
+              - generic [ref=e123]:
+                - generic [ref=e124]: New Driver License
+                - generic [ref=e125]: "Average wait: 25 min"
+            - 'button "Vehicle Registration Renewal Average wait: 8 min" [ref=e130] [cursor=pointer]':
+              - generic [ref=e132]:
+                - generic [ref=e133]: Vehicle Registration Renewal
+                - generic [ref=e134]: "Average wait: 8 min"
+            - 'button "New Vehicle Registration Average wait: 15 min" [ref=e139] [cursor=pointer]':
+              - generic [ref=e141]:
+                - generic [ref=e142]: New Vehicle Registration
+                - generic [ref=e143]: "Average wait: 15 min"
+            - 'button "ID Card Average wait: 10 min" [ref=e148] [cursor=pointer]':
+              - generic [ref=e150]:
+                - generic [ref=e151]: ID Card
+                - generic [ref=e152]: "Average wait: 10 min"
+            - 'button "Real ID Average wait: 20 min" [ref=e157] [cursor=pointer]':
+              - generic [ref=e159]:
+                - generic [ref=e160]: Real ID
+                - generic [ref=e161]: "Average wait: 20 min"
+        - button "Get My Ticket" [ref=e169] [cursor=pointer]
+    - generic [ref=e84]:
+      - heading "How it Works" [level=3] [ref=e86]
+      - list [ref=e88]:
+        - listitem [ref=e89]:
+          - generic [ref=e90]: "1"
+          - generic [ref=e91]: Select your DMV branch location
+        - listitem [ref=e92]:
+          - generic [ref=e93]: "2"
+          - generic [ref=e94]: Choose the service you need
+        - listitem [ref=e95]:
+          - generic [ref=e96]: "3"
+          - generic [ref=e97]: Receive your unique ticket number
+        - listitem [ref=e98]:
+          - generic [ref=e99]: "4"
+          - generic [ref=e100]: Monitor your position and estimated wait time
+        - listitem [ref=e101]:
+          - generic [ref=e102]: "5"
+          - generic [ref=e103]: You'll be notified when it's your turn

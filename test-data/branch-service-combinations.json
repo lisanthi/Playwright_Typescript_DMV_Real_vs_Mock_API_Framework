@@ -1,0 +1,32 @@
+[
+  {
+    "caseId": "san-francisco-driver-license-renewal",
+    "branch": "San Francisco DMV - San Francisco",
+    "serviceType": "Driver License Renewal"
+  },
+  {
+    "caseId": "san-francisco-new-driver-license",
+    "branch": "San Francisco DMV - San Francisco",
+    "serviceType": "New Driver License"
+  },
+  {
+    "caseId": "san-francisco-vehicle-registration-renewal",
+    "branch": "San Francisco DMV - San Francisco",
+    "serviceType": "Vehicle Registration Renewal"
+  },
+  {
+    "caseId": "san-francisco-new-vehicle-registration",
+    "branch": "San Francisco DMV - San Francisco",
+    "serviceType": "New Vehicle Registration"
+  },
+  {
+    "caseId": "san-francisco-id-card",
+    "branch": "San Francisco DMV - San Francisco",
+    "serviceType": "ID Card"
+  },
+  {
+    "caseId": "san-francisco-real-id",
+    "branch": "San Francisco DMV - San Francisco",
+    "serviceType": "Real ID"
+  }
+]

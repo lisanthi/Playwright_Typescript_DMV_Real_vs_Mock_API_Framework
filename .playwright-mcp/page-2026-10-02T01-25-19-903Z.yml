@@ -1,0 +1,32 @@
+- generic [ref=f1e3]:
+  - link "Back to Home" [ref=f1e4] [cursor=pointer]:
+    - /url: /
+  - generic [ref=f1e7]:
+    - heading "Check Ticket Status" [level=1] [ref=f1e8]
+    - paragraph [ref=f1e9]: View your position and estimated wait time
+  - generic [ref=f1e10]:
+    - generic [ref=f1e11]:
+      - heading "Enter Ticket Number" [level=3] [ref=f1e12]
+      - paragraph [ref=f1e13]: Check the status of your ticket in the queue
+    - generic [ref=f1e15]:
+      - textbox "e.g., A0042" [ref=f1e17]
+      - generic [ref=f1e18]:
+        - button "Check Status" [ref=f1e19] [cursor=pointer]
+        - generic [ref=f1e20] [cursor=pointer]:
+          - checkbox "Auto-refresh every 10s" [checked] [ref=f1e21]
+          - generic [ref=f1e22]: Auto-refresh every 10s
+  - generic [ref=f1e24]:
+    - paragraph [ref=f1e30]: Enter your ticket number above to check your status
+    - paragraph [ref=f1e31]: You received your ticket number when you joined the queue
+  - generic [ref=f1e32]:
+    - heading "Status Guide" [level=3] [ref=f1e34]
+    - list [ref=f1e36]:
+      - listitem [ref=f1e37]:
+        - strong [ref=f1e38]: "Waiting in Queue:"
+        - text: You're in line. Check your position and estimated wait time above.
+      - listitem [ref=f1e39]:
+        - strong [ref=f1e40]: "Your Turn:"
+        - text: Please proceed to the service counter immediately.
+      - listitem [ref=f1e41]:
+        - strong [ref=f1e42]: "Service Completed:"
+        - text: Your service has been completed. Thank you!

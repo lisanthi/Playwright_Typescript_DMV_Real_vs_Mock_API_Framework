@@ -1,0 +1,26 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: CA
+    - heading "DMV OpenQueue" [level=1] [ref=e6]
+    - paragraph [ref=e7]: California Department of Motor Vehicles
+    - generic [ref=e8]: System Online
+  - generic [ref=e10]:
+    - link [ref=e11] [cursor=pointer]:
+      - /url: /join
+      - generic [ref=e22]:
+        - heading "Get in Line" [level=3] [ref=e23]
+        - paragraph [ref=e24]: Join the virtual queue for DMV services
+    - link [ref=e27] [cursor=pointer]:
+      - /url: /status
+      - generic [ref=e36]:
+        - heading "Check Status" [level=3] [ref=e37]
+        - paragraph [ref=e38]: View your ticket and estimated wait time
+    - link [ref=e41] [cursor=pointer]:
+      - /url: /staff
+      - generic [ref=e49]:
+        - heading "Staff Portal" [level=3] [ref=e50]
+        - paragraph [ref=e51]: Call next ticket and manage queues
+  - generic [ref=e61]:
+    - heading "About OpenQueue" [level=4] [ref=e62]
+    - paragraph [ref=e63]: Open-source replacement for proprietary DMV queue systems. Join virtual queues, track your position in real-time, and receive notifications when it's your turn.
+  - paragraph [ref=e65]: v0.3.0 • Open Source Project
